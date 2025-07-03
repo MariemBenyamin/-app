@@ -502,9 +502,6 @@ Header Style
   z-index: 999;
 }
 
-.header-area .main-nav .nav li:last-child {
-  padding-right: 0px;
-}
 
 .header-area .main-nav .nav li {
   padding-left: 10px;
@@ -530,6 +527,9 @@ Header Style
   border: transparent;
   letter-spacing: .25px;
 }
+.header-area .main-nav .nav li:last-child {
+  padding-right: 0px;
+}
 
 .header-area .main-nav .nav li:last-child a {
   background-color: #1e1e1e;
@@ -543,6 +543,8 @@ Header Style
 
 .header-area .main-nav .nav li:last-child a i {
   background-color: #f35525;
+    color: #fff;
+
   display: inline-block;
   width: 40px;
   height: 40px;
