@@ -79,7 +79,7 @@ function Cart() {
                                 <td>
                                   <div className="summary-item d-flex justify-content-between">
                                     <span>Price</span>
-                                    <span>${Math.ceil(item.price)}</span>
+                                    <span>${Math.ceil(item.price*item.quantity)}</span>
                                   </div>
                                 </td>
 
@@ -112,7 +112,7 @@ function Cart() {
                   </div>
                   <div className="ibox-content">
                     <span>
-                      Total
+                      Total Items: <strong>{totalItems}</strong>
                     </span>
                     <td>
                       <div className="summary-item d-flex justify-content-between">
@@ -197,12 +197,3 @@ function AllCart() {
 }
 
 export default AllCart
-
-
-
-
-
-
-
-
-
