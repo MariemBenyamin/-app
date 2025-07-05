@@ -14,7 +14,7 @@ import AllPayment from "./Payment/AllPayment";
 import PaySuccess from "./Success/PaySuccess";
 import ScrollToTop from "react-scroll-to-top";
 const router = createBrowserRouter([
-  {
+  { 
     path: "/",
     element: <App />,
   },
