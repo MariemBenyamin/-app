@@ -788,7 +788,7 @@ h6 span{
   transition: all 0.3s ease 0s;
   display: inline-block;
 }
-
+/* 
 .header-area .main-nav .logo h1 {
   line-height: 100px;
   font-size: 28px;
@@ -800,7 +800,27 @@ h6 span{
 
 .background-header .main-nav .logo h1 {
   line-height: 80px;
+} */
+
+/* إجبار اللوجو على اليسار */
+.header-area .main-nav {
+  display: flex !important;
+  align-items: center;
+  justify-content: flex-start !important;
 }
+
+.header-area .main-nav .logo {
+  order: 0 !important;
+  margin-left: 0 !important;
+  margin-right: auto !important;
+  float: none !important;
+  text-align: left !important;
+  position: static !important;
+}
+
+
+
+
 
 .header-area .main-nav ul.nav {
   flex-basis: 100%;
