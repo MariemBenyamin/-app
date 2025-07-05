@@ -12,7 +12,7 @@ import AllShop from "./Shop/AllShop";
 import AllCart from "./Cart/AllCart";
 import AllPayment from "./Payment/AllPayment";
 import PaySuccess from "./Success/PaySuccess";
-
+import ScrollToTop from "react-scroll-to-top";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -55,6 +55,7 @@ const router = createBrowserRouter([
 createRoot(document.getElementById("root")).render(
     <AllData >
 
+      <ScrollToTop smooth />
         <RouterProvider router={router} />
         
     </AllData>
