@@ -18,6 +18,8 @@ function SubNavbar() {
             <li><a href="https://x.com/minthu" target="_blank"><i className="fab fa-twitter"></i></a></li>
             <li><a href="#"><i className="fab fa-linkedin"></i></a></li>
             <li><a href="#"><i className="fab fa-instagram"></i></a></li>
+
+                              <li className='login'><a href="/login">Login</a></li>
           </ul>
         </div>
       </div>

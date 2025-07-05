@@ -26,8 +26,8 @@ function Navbar() {
                   <li><NavLink to="/contact">Contact Us</NavLink></li>
                   <li><NavLink to="/product">Products</NavLink></li>
                   <li><NavLink to="/shop">Shop</NavLink></li>
+                  <li className='cart'><NavLink to="/cart"><i className="fa-solid fa-cart-shopping"></i> Buy & Rent</NavLink></li>
                   <li><NavLink to="/payment">Payment</NavLink></li>
-                  <li><NavLink to="/cart"><i className="fa-solid fa-cart-shopping"></i> Buy & Rent</NavLink></li>
                 
                 </ul>
 

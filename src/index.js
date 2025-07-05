@@ -13,6 +13,7 @@ import AllCart from "./Cart/AllCart";
 import AllPayment from "./Payment/AllPayment";
 import PaySuccess from "./Success/PaySuccess";
 import ScrollToTop from "react-scroll-to-top";
+import LoginPage from "./Login/LoginPage";
 const router = createBrowserRouter([
   { 
     path: "/",
@@ -49,6 +50,10 @@ const router = createBrowserRouter([
   {
     path: "success",
     element: <PaySuccess />,
+  },
+  {
+    path: "login",
+    element: <LoginPage />,
   },
 ]);
 
