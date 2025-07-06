@@ -162,7 +162,7 @@ function Pay() {
         </div>
 
         <div className="col-12">
-                                      <a href="/payment" className="btn btn-primary payment">Make Payment</a>
+                                      <a href="/success" className="btn btn-primary payment">Make Payment</a>
 
         </div>
       </div>
